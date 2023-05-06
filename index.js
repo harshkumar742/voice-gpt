@@ -1,6 +1,5 @@
 const fs = require('fs');
 const mic = require('mic');
-const speech = require('@google-cloud/speech');
 require('dotenv').config();
 
 const green = '\x1b[32m';
@@ -12,8 +11,6 @@ const configuration = new Configuration({
     apiKey: process.env.OPENAI_API_KEY,
 });
 const openai = new OpenAIApi(configuration);
-
-const speechClient = new speech.SpeechClient();
 
 const audioFile = 'audio.wav';
 const micInstance = mic({
