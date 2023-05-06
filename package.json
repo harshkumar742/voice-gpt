@@ -1,15 +1,15 @@
 {
   "name": "voice-gpt",
   "version": "1.0.0",
-  "description": "",
+  "description": "voice-gpt",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
-  "author": "",
+  "author": "Harsh Kumar",
   "license": "ISC",
   "dependencies": {
-    "@google-cloud/speech": "^5.4.1",
     "chalk": "^5.2.0",
     "dotenv": "^16.0.3",
     "fs": "^0.0.1-security",
