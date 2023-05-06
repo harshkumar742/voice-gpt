@@ -43,9 +43,11 @@ npm start
 
 ## Example
 
--User: "What is the capital of France?"
--Transcription: "What is the capital of France?"
--ChatGPT: "The capital of France is Paris."
+ User: "What is the capital of France?"
+ 
+ Transcription: "What is the capital of France?"
+ 
+ ChatGPT: "The capital of France is Paris."
 
 ## Dependencies
 
