@@ -1,6 +1,6 @@
 # Voice-GPT
 
-Voice-GPT is an interactive voice-based application that records a 7-second user command or question, transcribes the audio, and generates contextually relevant responses using OpenAI's GPT-3 based DaVinci model. This offers a versatile voice interface for various use cases.
+Voice-GPT is an interactive voice-based application that records a 7-second user command or question, transcribes the audio, generates contextually relevant responses using OpenAI's GPT-3 based DaVinci model, and speaks the response back to the user, offering a versatile voice interface for various use cases.
 
 ![Example](example.png)
 
@@ -41,7 +41,11 @@ npm start
 
 2. The application will start recording for 7 seconds. Speak your command or question into the microphone.
 
-3. After the recording stops, the application will transcribe the audio and generate a contextually relevant response using the GPT-3 DaVinci model. The transcription and response will be displayed in the console.
+3. After the recording stops, the application will transcribe the audio and generate a contextually relevant response using the GPT-3 DaVinci model. The transcription and response will be displayed in the console. Subsequently, the application will speak the response back to the user.
+
+4. Press the 'S' key to stop the voice response and use either the Escape key or Ctrl-C to exit the application.
+
+5. Once a response is completed, the application will prompt the user to ask another question.
 
 ## Example
 
