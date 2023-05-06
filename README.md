@@ -1,6 +1,7 @@
 # Voice-GPT
 
 Voice-GPT is an interactive voice-based application that records a 7-second user command or question, transcribes the audio, and generates contextually relevant responses using OpenAI's GPT-3 based DaVinci model. This offers a versatile voice interface for various use cases.
+
 ![Example](example.png)
 
 ## Prerequisites
