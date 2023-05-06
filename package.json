@@ -1,6 +1,6 @@
 {
   "name": "voice-gpt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "voice-gpt",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,9 @@
     "chalk": "^5.2.0",
     "dotenv": "^16.0.3",
     "fs": "^0.0.1-security",
+    "keypress": "^0.2.1",
     "mic": "^2.1.2",
-    "openai": "^3.2.1"
+    "openai": "^3.2.1",
+    "say": "^0.16.0"
   }
 }
