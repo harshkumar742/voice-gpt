@@ -3,8 +3,6 @@ const mic = require('mic');
 const speech = require('@google-cloud/speech');
 require('dotenv').config();
 
-console.log(process.env.OPENAI_API_KEY)
-
 const green = '\x1b[32m';
 const reset = '\x1b[0m';
 const red = '\x1b[31m';
@@ -35,7 +33,7 @@ micInstance.start();
 
 console.log('Recording started. Press Ctrl+C to stop.');
 
-// Stop the recording after 10 seconds
+// Stop the recording after 7 seconds
 setTimeout(() => {
     micInstance.stop();
     console.log('Recording stopped.');
